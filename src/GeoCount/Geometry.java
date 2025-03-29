@@ -8,7 +8,8 @@ class VolumeTabung {
     }
 
     void hasil() {
-        System.out.println("Volume tabung dari jari jari: " + String.format("%.2f", kalkulasi()));
+        System.out.println("Volume tabung dari jari jari (pi * Jari^2 * t): ");
+        System.out.println(pi + " * " + jari2 + "^2 * " + tinggi + " = " + String.format("%.2f", kalkulasi()) );
     }
 
     double kalkulasi() {
@@ -25,7 +26,8 @@ class LuasPersegi{
 
     void hasil(){
         // rumus luas persegi = Panjnag x lebar
-        System.out.println("Luas dari persegi panjang: " + String.format("%.2f", (panjang * lebar)));
+        System.out.println("Luas dari persegi panjang (P*L): ");
+        System.out.println(this.panjang + " * " + this.lebar + " = " + String.format("%.2f", (panjang * lebar)));
     }
 }
 
@@ -37,7 +39,8 @@ class  LuasTrapesium{
     }
 
     void hasil(){
-        System.out.println("Luas dari trapesium: " + String.format("%.2f", kalkulasi()));
+        System.out.println("Luas dari trapesium (((Alas atsa + Alas bawah) * tinggi) / 2): ");
+        System.out.println("((" + alasAtas + " + " + alasBawah + ") * " + tinggi + ") / 2 = " + String.format("%.2f", kalkulasi()));
     }
 
     double kalkulasi(){

@@ -1,2 +1,7 @@
 bin
 .vscode
+lib
+out
+*.pdf
+*.iml
+.idea

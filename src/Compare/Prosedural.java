@@ -1,3 +1,5 @@
+package Compare;
+
 public class Prosedural {
     public static void main(String[] args){
         // hitung volume tbaung: Pi, jari jari, tinggi
@@ -6,7 +8,8 @@ public class Prosedural {
         int jari2 = 5; 
         int tinggi = 20; 
 
-        double hasil = Pi * Math.pow(jari2, 2) * tinggi; 
+        double hasil = Pi * Math.pow(jari2, 2) * tinggi;
+        System.out.print("Hasil dari 3.14 * " + jari2 + "^2 * " + tinggi + " = ");
         System.out.println(String.format("%.2f", hasil));
     }
 }

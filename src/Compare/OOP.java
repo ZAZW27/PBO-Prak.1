@@ -1,3 +1,5 @@
+package Compare;
+
 class VolumeTabung{
     double jari2; 
     double tinggi; 
@@ -19,11 +21,11 @@ class VolumeTabung{
 
 public class OOP {
     public static void main(String[] args){
-        VolumeTabung tabung1 = new VolumeTabung(); 
+        VolumeTabung tabung1 = new VolumeTabung();
         tabung1.jari2 = 2; 
         tabung1.tinggi = 5; 
 
-        VolumeTabung tabung2 = new VolumeTabung(); 
+        VolumeTabung tabung2 = new VolumeTabung();
         tabung2.jari2 = 5; 
         tabung2.tinggi = 7; 
 
